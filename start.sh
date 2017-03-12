@@ -4,4 +4,4 @@ randomUtf8=$(head -c 64 /dev/urandom | base64)
 
 geth --datadir .ethereum-test init config/test/genesis.json
 geth --datadir .ethereum-test --password .password account new
-geth --datadir .ethereum-test --mine  js node_modules/embark/js/mine.js
+geth --datadir .ethereum-test --mine --networkid 8675 js node_modules/embark/js/mine.js

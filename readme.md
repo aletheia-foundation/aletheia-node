@@ -18,11 +18,19 @@ tested on ubuntu 16.10
   curl -sL https://deb.nodesource.com/setup_7.x | bash #todo shouldn't be doing this
   apt-get install nodejs
 
+  #add user for service
+  adduser srv-aletheia-node
+
   # clone codebase
   git clone https://github.com/aletheia-foundation/aletheia-node
-  pushd aletheia-node
 
   #install and run
   npm install
-  npm start
+```
+
+Copy aletheia-node.service to `/etc/systemd/system/aletheia-node.service`
+
+``` bash
+  systemctl enable aletheia-node
+  systemctl start aletheia-node
 ```
