@@ -1,3 +1,4 @@
 node_modules
+.password
 .ethereum-test
 npm-debug.log
