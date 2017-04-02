@@ -11,16 +11,18 @@ tested on ubuntu 16.10
   sudo apt-get install software-properties-common
   sudo add-apt-repository -y ppa:ethereum/ethereum
   sudo apt-get update
-  sudo apt-get install ethereum
+  sudo apt-get install -y ethereum
 
 
   # ipfs
-  snap install ipfs
+  sudo snap install ipfs
   ipfs init
 
   # node 7.x from nodesource
-  curl -sL https://deb.nodesource.com/setup_7.x | bash #todo shouldn't be doing this
-  apt-get install nodejs
+  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 68576280
+  sudo apt-add-repository "deb https://deb.nodesource.com/node_7.x $(lsb_release -sc) main"
+  sudo apt-get update
+  sudo apt-get install -y nodejs
 
   #add user for service
   adduser srv-aletheia-node
