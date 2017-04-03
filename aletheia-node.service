@@ -1,12 +1,12 @@
 [Service]
-ExecStart=/home/srv-aletheia-node/aletheia-node/start.sh
+ExecStart=/var/lib/buildkite-agent/builds/ubuntu-roo-1/aletheia/testnet/start.sh
 Restart=always
 StandardOutput=syslog
 StandardError=syslog
 SyslogIdentifier=aletheia-node
-User=srv-aletheia-node
-Group=srv-aletheia-node
-WorkingDirectory=/home/srv-aletheia-node/aletheia-node
+User=buildkite-agent
+Group=buildkite-agent
+WorkingDirectory=/var/lib/buildkite-agent/builds/ubuntu-roo-1/aletheia/testnet/
 
 [Install]
 WantedBy=multi-user.target

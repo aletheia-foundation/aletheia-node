@@ -30,13 +30,15 @@ tested on ubuntu 16.10
   # clone codebase
   git clone https://github.com/aletheia-foundation/aletheia-node
 
+  cd aletheia-node
   #install and run
   npm install
 ```
 
-Copy aletheia-node.service to `/etc/systemd/system/aletheia-node.service`
+Enable the service
 
 ``` bash
+  sudo cp aletheia-node.service  /etc/systemd/system/aletheia-node.service
   systemctl enable aletheia-node
   systemctl start aletheia-node
 ```
