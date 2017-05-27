@@ -1,30 +1,43 @@
+## I confirm:
+
 - [ ] I've read the [contributing guidelines](https://github.com/aletheia-foundation/aletheia-admin/blob/master/CONTRIBUTING.md) and the [code of conduct](https://github.com/aletheia-foundation/aletheia-admin/blob/master/CODE-OF-CONDUCT.md)
 - [ ] I've checked that this issue applies to this repo
 - [ ] I've checked the existing issues, no one else has reported this
+- [ ] I've got a clear and descriptive title for the issue to identify the problem
+
 ---------------------------
 
-## Reporting bugs
+## Report bugs
 
-## Issue
+To make your bug report as useful to others as possible, please consider the below and try to answer as many of them as possible:
 
-What the issue is, in broad strokes.
+**Explain the problem and include additional details to help maintainers reproduce the problem:**
 
-## Steps to Reproduce
+* Describe the exact steps which reproduce the problem in as many details as possible.
+* Describe the behaviour you observed after following the steps and point out what exactly is the problem with that behaviour.
+* Explain what behaviour you expected to see instead and why.
+* Include screenshots where possible.
+* If you're reporting that Alethia crashed, include a crash report with a stack trace from the operating system if possible. Include the crash report in the issue in a code block, a file attachment, or put it in a gist and provide link to that gist.
+* If the problem is related to performance, include a CPU profile capture and a screenshot with your report if possible.
+* If the problem wasn't triggered by a specific action, describe what you were doing before the problem happened and share more information using the guidelines below.
 
-Please provide the shortest amount of steps to reproduce your issue.
+### My response
 
-## Expected Behavior
+**Provide more context by answering these questions:**
 
-What you expected to happen.
+* Can you reproduce the problem in safe mode?
+* Did the problem start happening recently (e.g. after updating to a new version of Aletheia) or was this always a problem?
+* If the problem started happening recently, can you reproduce the problem in an older version of Aletheia? What's the most recent version in which the problem doesn't happen?
+* Can you reliably reproduce the issue? If not, provide details about how often the problem happens and under which conditions it normally happens.
 
-## Actual Results
+### My reponse
 
-What actually happened. Please give examples and support it with screenshots, copied output or error messages.
+**Include details about your configuration and environment:**
 
-## Environment
+* Which version of Aletheia are you using?
+* What's the name and version of the OS you're using?
+* Are you running Aletheia in a virtual machine? If so, which VM software are you using and which operating systems and versions are used for the host and the guest?
+* Are you using Aletheia with multiple monitors? If so, can you reproduce the problem when you use a single monitor?
+* Which keyboard layout are you using? Are you using a US layout or some other layout?
 
-* Operating System: 
-* Truffle version:
-* Ethereum client:
-* node version:
-* npm version: 
+### My response
