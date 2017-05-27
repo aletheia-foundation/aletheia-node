@@ -3,7 +3,7 @@
 - [ ] I've read the [contributing guidelines](https://github.com/aletheia-foundation/aletheia-admin/blob/master/CONTRIBUTING.md) and the [code of conduct](https://github.com/aletheia-foundation/aletheia-admin/blob/master/CODE-OF-CONDUCT.md)
 - [ ] I've checked that this issue applies to this repo
 - [ ] I've checked the existing issues, no one else has reported this
-- [ ] I've got a clear and descriptive title for the issue to identify the problem
+- [ ] I've got a clear and descriptive title for the issue 
 
 ---------------------------
 
@@ -44,7 +44,7 @@ To make your bug report as useful to others as possible, please consider the bel
 
 ---------------------------
 
-## Suggest an enhancement
+## Suggest an enhancement - delete this section if not suggesting an enhancement
 
 To make your enhancement suggestion as useful to others as possible, please consider the below and try to answer as many of them as possible:
 
