@@ -7,7 +7,7 @@
 
 ---------------------------
 
-## Report bugs
+## Report bugs - delete this section if not reporting a bug
 
 To make your bug report as useful to others as possible, please consider the below and try to answer as many of them as possible:
 
@@ -21,7 +21,7 @@ To make your bug report as useful to others as possible, please consider the bel
 * If the problem is related to performance, include a CPU profile capture and a screenshot with your report if possible.
 * If the problem wasn't triggered by a specific action, describe what you were doing before the problem happened and share more information using the guidelines below.
 
-### My response
+### My response:
 
 **Provide more context by answering these questions:**
 
@@ -30,7 +30,7 @@ To make your bug report as useful to others as possible, please consider the bel
 * If the problem started happening recently, can you reproduce the problem in an older version of Aletheia? What's the most recent version in which the problem doesn't happen?
 * Can you reliably reproduce the issue? If not, provide details about how often the problem happens and under which conditions it normally happens.
 
-### My reponse
+### My reponse:
 
 **Include details about your configuration and environment:**
 
@@ -40,4 +40,22 @@ To make your bug report as useful to others as possible, please consider the bel
 * Are you using Aletheia with multiple monitors? If so, can you reproduce the problem when you use a single monitor?
 * Which keyboard layout are you using? Are you using a US layout or some other layout?
 
-### My response
+### My response:
+
+---------------------------
+
+## Suggest an enhancement
+
+To make your enhancement suggestion as useful to others as possible, please consider the below and try to answer as many of them as possible:
+
+* Provide a step-by-step description of the suggested enhancement in as many details as possible.
+* Provide specific examples to demonstrate the steps. Include copy/pasteable snippets which you use in those examples, as Markdown code blocks if possible.
+* Describe the current behaviour and explain which behaviour you expected to see instead and why.
+* Include screenshots which help you demonstrate the steps or point out the part of Aletheia which the suggestion is related to.
+* Explain why this enhancement would be useful to most Aletheia users.
+* List some other applications where this enhancement exists.
+* Specify which version of Aletheia you're using.
+* Specify the name and version of the OS you're using.
+
+### My response:
+
