@@ -9,6 +9,6 @@
 
 ### Making an enhancement - ignore this if not making an enhancement
 
-- [ ] I've **Checked** the [outstanding issues](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3Aaletheia-foundation+) Aletheia has currently. Someone may be planning to work on something similar.
-- [ ] I've **Read** the latest version of the [whitepaper](https://github.com/aletheia-foundation/whitepaper) first. This will align you with the project vision.
+- [ ] I've **Checked** the [outstanding issues](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3Aaletheia-foundation+). 
+- [ ] I've **Read** the latest version of the [whitepaper](https://github.com/aletheia-foundation/whitepaper).
 - [ ] I've **Emailed** contact@aletheia-foundation.io to discuss the enhancement. 
